@@ -9,7 +9,7 @@ function MyMenu(){
     return(
         <>
         
-        <div className='row'>
+        
             <div className='col-lg-2 col-md-2 col-sm-12 col-xs-12 bgklr'>
                 
                 <hr className='line'/>
@@ -39,7 +39,7 @@ function MyMenu(){
                 <h1><Link className='klr' to="/settings">Settings</Link></h1>
             </div>
 
-        </div>
+        
         </>
     )
 }

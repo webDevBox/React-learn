@@ -10,8 +10,16 @@ function SuperAdminPanel(){
     return(
         <>
         <Myheader/>
+        <div className='row'>
         <MyMenu/>
-        
+        <div className='col-lg-10 col-md-10 col-xs-12 col-sm-12 bgclr'>
+            <h1 className='klr'>Super Admin Dashboard</h1>
+            <h3 className='klr'>Users</h3>
+            <div className='col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12 '>
+                <h3 className='klr'>Students</h3>
+            </div>
+        </div>
+        </div>
         </>
     )
 }
